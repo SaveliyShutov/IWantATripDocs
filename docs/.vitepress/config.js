@@ -6,19 +6,19 @@ export default defineConfig({
   lang: 'ru-RU',
   themeConfig: {
     nav: [
-      { text: 'Условия', link: '/privacy/main' },
+      { text: 'Документы', link: '/privacy/main' },
       { text: 'Обучение', link: '/education/main' },
       { text: 'О проекте', link: '/about/main' },
     ],
     sidebar: {
       '/privacy/': [
         {
-          text: 'Условия',
+          text: 'Документы',
           items: [
-            // This shows `/guide/index.md` page.
-            { text: 'Оферта', link: '/guide/' }, // /guide/index.md
-            { text: 'Правила', link: '/guide/one' }, // /guide/one.md
-            { text: 'Оплата', link: '/guide/two' } // /guide/two.md
+            
+            { text: 'Оферта', link: '/privacy/oferta.md' },
+            { text: 'Агентский договор', link: '/privacy/agentDocs.md' },
+            { text: 'Согласие на обработку персональных данных', link: '/privacy/agreement.md' }
           ]
         }
       ],
@@ -26,10 +26,10 @@ export default defineConfig({
         {
           text: 'О проекте',
           items: [
-            // This shows `/guide/index.md` page.
-            { text: 'Вопросы', link: '/guide/' }, // /guide/index.md
-            { text: 'Поддержка', link: '/guide/one' }, // /guide/one.md
-            { text: 'Контакты', link: '/guide/two' } // /guide/two.md
+            
+            { text: 'Вопросы', link: '/guide/' },
+            { text: 'Поддержка', link: '/guide/one' },
+            { text: 'Контакты', link: '/guide/two' }
           ]
         }
       ],
@@ -37,9 +37,9 @@ export default defineConfig({
         {
           text: 'Обучение',
           items: [
-            // This shows `/guide/index.md` page.
-            { text: 'Создать поездку', link: '/guide/' }, // /guide/index.md
-            { text: 'Регистрация', link: '/guide/one' }, // /guide/one.md
+            
+            { text: 'Создать поездку', link: '/guide/' },
+            { text: 'Регистрация', link: '/guide/one' },
           ]
         }
       ],
