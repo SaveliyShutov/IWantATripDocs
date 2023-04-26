@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  title: 'Хочу в Поездку',
+  title: 'Города и Веси',
   description: 'Крутой инструмент',
   lang: 'ru-RU',
   themeConfig: {
@@ -27,9 +27,9 @@ export default defineConfig({
           text: 'О проекте',
           items: [
             
-            { text: 'Вопросы', link: '/guide/' },
-            { text: 'Поддержка', link: '/guide/one' },
-            { text: 'Контакты', link: '/guide/two' }
+            { text: 'Вопросы', link: '/about/questions.md' },
+            { text: 'Поддержка', link: '/about/support.md' },
+            { text: 'Контакты', link: '/about/contacts.md' }
           ]
         }
       ],
@@ -38,8 +38,8 @@ export default defineConfig({
           text: 'Обучение',
           items: [
             
-            { text: 'Создать поездку', link: '/guide/' },
-            { text: 'Регистрация', link: '/guide/one' },
+            { text: 'Создать поездку', link: '/education/create-trip.md' },
+            { text: 'Регистрация', link: '/education/reg.md' },
           ]
         }
       ],
