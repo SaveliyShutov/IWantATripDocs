@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
+
   title: 'Города и Веси',
   description: 'Крутой инструмент',
   lang: 'ru-RU',
