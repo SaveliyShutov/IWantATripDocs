@@ -47,6 +47,8 @@ export default defineConfig({
 
             { text: 'Создать поездку', link: '/education/create-trip.md' },
             { text: 'Регистрация', link: '/education/reg.md' },
+            { text: 'Вход', link: '/education/auth.md' },
+            { text: 'Востановление пароля', link: '/education/recover.md' },
           ]
         }
       ],
